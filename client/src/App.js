@@ -8,10 +8,11 @@ function App() {
   const [restaurant, setRestaurant] = useState("");
   const [website, setWebsite] = useState("");
 
-  // const deleteHandler = (id) => {
-  //   const filteredData = data.filter((e) => e.id !== id)
-  //   setData(filteredData);
-  // };
+  const deleteHandler = (id) => {
+    //   const filteredData = data.filter((e) => e.id !== id)
+    //   setData(filteredData);
+    console.log(id);
+  };
 
   const addHandler = (event) => {
     event.preventDefault();
